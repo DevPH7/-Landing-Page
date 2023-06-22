@@ -1,0 +1,155 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; 
+}
+
+li {
+    padding: 0 12px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-content {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+.info {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 350px;
+    margin-bottom: 5px;
+}
+
+.img-top {
+    border: none;
+    background-color: #E5E7EB; 
+    width: 400px;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border-color: #E5E7EB;
+}
+
+
+.text {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.modelo {
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+    padding: 3px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.txt-modelo {
+    color: #1F2937
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.descrição {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    color: #1F2937;
+    width: 500px;
+    padding: 50px 0;
+}
+
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.box {
+    width: 700px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.chamada {
+    color: #F9FAF8;
+    width: 500px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+}
